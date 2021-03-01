@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Qalyn Mal Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mukta&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Qalyn Mal: How much are you willing to pay for your groom?</h1>
+<div class="sec">
+    <div class="name"> <p>Groom's name</p> </div>
+    <input type="text" id="name">
+    <div class="Starting"> <p>Starting bid ($)</p> </div>
+    <input type="number" id="bid">
+    <div class="edu1"><p>Groom's education</p> </div>
+    
+    <select id = "education">
+        <option value=1>Choose one</option>
+        <option value=1.5>Undergraduate degree</option>
+        <option value=1.2>College degree</option>
+        <option value=1.05>High school degree</option>
+        <option value=0.9>Middle school degree</option>
+    </select>
+    <div class="worth1">  <p>Groom's family net worth</p> </div>
+    <select id = "capital">
+        <option value=1>Choose one</option>
+        <option value=2>More than 100,000$</option>
+        <option value=1.5>Between 50,000$ and 100,000$</option>
+        <option value=1.2>Less than 50,000$</option>
+    </select>
+    <div class= "skills1 "> <p>Groom's skills</p> </div>
+    <input class="skills" type="checkbox" value=100>Playing on dombra
+    <input class="skills" type="checkbox" value=200>Good cook
+    <input class="skills" type="checkbox" value=150>Easygoing character
+    <input class="skills" type="checkbox" value=100>Sings well
+    <div class="age1"> <p>Groom's age</p> </div>
+    <input type="radio" name="age" value=1.5>Between 18 - 23
+    <input type="radio" name="age" value=1.2>Between 24 - 27
+    <input type="radio" name="age" value=0.95>28+
+    <div class="rep1"> <p>Groom's reputation</p> </div>
+    <input id="reputation0" type="checkbox" value=0.85>Gossips about his parent's attitude
+    <input id="reputation1" type="checkbox" value=0.9>Gossips about his character
+    <input id="reputation2" type="checkbox" value=200>General gossips around his person
+    <p>Love Letter</p>
+    <textarea maxlength="500" placeholder="leave a piece of your confession"></textarea>
+    <br>
+    <button id="btn">Calculate his Qalyn Mal</button>
+    <p id="Result">Result</p>
+</div>
+<script type ="text/javascript" src="javascript.js"></script>
+</body>
+</html>

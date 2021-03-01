@@ -1,0 +1,68 @@
+body {
+	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+h1 {
+    background-color: antiquewhite;
+    color: blue;
+    text-align: center;
+    width: 1500;
+}.sec {
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;;
+}
+.name { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color:#47e0ff;
+    width: 190px;
+}
+.Starting { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color:#47e0ff;
+    width: 200px;
+}
+.edu1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color:#47e0ff;
+    width: 250px;
+}
+.worth1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #47e0ff;
+    width: 300px;
+}
+
+.skills1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color:#47e0ff;
+    width: 180px;
+}
+.age1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color:#47e0ff;
+    width: 150px;
+} 
+.rep1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #47e0ff;
+    width: 250px;
+}
+
+button {
+    background-color:#2ea5f1644;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
